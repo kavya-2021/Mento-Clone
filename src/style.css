@@ -46,8 +46,8 @@
 
 #Home-Content-Cards{
     display: grid;
-    grid-template-columns: repeat(3,32%);
-    column-gap: 3%;
+    grid-template-columns: repeat(3,31%);
+    column-gap: 3.5%;
     row-gap: 4%;
 }
 
