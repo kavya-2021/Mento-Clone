@@ -7,9 +7,9 @@ export const HomePage = ()=>{
  
          <div id="Home-Page"> 
             <HomeAdd/>
-           <br/> 
+           <br/>  <br/> 
             <h3>ALL LESSONS</h3> 
-            <br/> 
+            <br/>  <br/> 
            <HomeContent/>
            
          </div>          
