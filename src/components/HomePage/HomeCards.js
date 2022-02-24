@@ -20,22 +20,6 @@ export const HomeCards = ({image,title,profession})=>{
     }
 
     return (
-           /* <div id="Home-Section-Cards">
-            <div id="Profile-Details"> 
-               <h4>MY NAME IS SO AND SO</h4>
-               <h4>MY NAME IS SO AND SO</h4>
-               <h4>MY NAME IS SO AND SO</h4>
-            </div>
-           </div> */
-
-         //   <DIV image={url} className="Image-Div">
-         //      <div id="Profile-Details" className="Image-Div"> 
-         //       <h4>MY NAME IS SO AND SO</h4>
-         //       <h4>MY NAME IS SO AND SO</h4>
-         //       <h4>MY NAME IS SO AND SO</h4>
-         //      </div>
-         //    </DIV>    onClick={nextPage} 
-
          <Link style={{textDecoration:"none"}} to={`/courses/${title}`} > 
 
          <DIVHOME image={url} className="Home-Card-Container">
