@@ -41,3 +41,15 @@
 body{
   background-color: #1a1d24; 
 }
+
+#navbardiv {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+#other {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+}
