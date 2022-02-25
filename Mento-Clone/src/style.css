@@ -1,0 +1,126 @@
+#Home-Page{
+    width: 80%;
+    margin : auto;
+}
+
+
+#Home-Add-Section{
+    display: grid;
+    grid-template-columns: 35% 63%;
+    gap: 2%;
+  
+    color: #fff;
+    /* vertical-align: baseline; */
+    text-align: left;
+}
+
+/* .heading-download-app{
+    display: flex;
+} */
+
+.heading-subtitle h3 {
+    color: #fff;
+    font-size: 0.7272727273em;
+    line-height: 30px;
+}
+
+.heading-download-app{
+    display : grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: left;
+    margin-left: -3.5%;
+}
+
+.heading-title h1 {
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 3.3636363636em;
+    line-height: normal;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    letter-spacing: .5px;
+    font-weight: bolder;
+}
+
+#Home-Content-Cards{
+    display: grid;
+    grid-template-columns: repeat(3,31%);
+    column-gap: 3.5%;
+    row-gap: 4%;
+}
+
+#Home-Section-Cards{
+    border:1px solid tomato;
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+    background-image: url(https://i.pinimg.com/originals/32/ad/ac/32adac4a3b56e0f0ccbc274c8d4f0577.jpg);
+     width:100%;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-position:center center;
+     border-radius: 10px;
+     z-index : 10
+}
+
+/* .Image-Div{
+    border:1px solid tomato;
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+     width:100%;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-position:center center;
+     border-radius: 10px;
+     z-index : 10 
+   
+}
+
+.Image-Div:after{
+    position:absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:100%;
+ } */
+
+
+
+/* #Profile-Details:after{
+   transform-origin : right bottom;
+   transform : skewY(-3deg)
+} */
+
+
+/* .Home-Comments > div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+} */
+
+footer {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    padding: 40px 0 40px;
+    position: absolute;
+    left: 0px;
+    height: 256px;
+    bottom: 0px;
+}
+
+#Footer-Icons > div{
+  width:50px;
+  height: 50px;
+  background-color:#1a1d24;
+  border-radius: 50%
+}
+
+#Footer-Icons > div > img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%
+  }
+
