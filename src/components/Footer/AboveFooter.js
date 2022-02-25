@@ -3,7 +3,7 @@ export const AboveFooter = ()=>{
         <div style={{
             width: "470px",
             margin:"auto",
-            marginTop : "30%",
+            marginTop : "20%",
             textAlign:"center"
         }} id="Above-Footer"> 
            <h1> Learn on the go </h1>
