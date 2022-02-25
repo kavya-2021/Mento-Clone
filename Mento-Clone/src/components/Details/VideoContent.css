@@ -1,30 +1,30 @@
 .Main_cont1 {
     width: 1145px;
-    height: 1500px;
+    height: 1300px;
     margin: auto;
-    background: rgb(252, 245, 245);
+    background: #ffffff;
     border-radius: 10px;
     display: flex;
+    margin-top: 20px;
 }
 
 .videos {
-    width: 802px;
+    width: 900px;
     height: 1300px;
-    background-color: rgb(146, 146, 23);
 }
 
 .about {
     width: 343px;
     height: 1200px;
-    /* background-color: aqua; */
+    background-color: rgba(247, 247, 247, 255);
 }
 
 .sub_navbar {
     width: 802px;
     height: 73px;
-    display: flex;
-    background-color: antiquewhite;
+    background-color:rgba(247, 247, 247, 255);
     justify-content: space-between;
+    display: flex;
 
 }
 
@@ -34,7 +34,10 @@
 
 .svg {
 
-    width: 400px;
+    width: 300px;
+    /* background-color: rgb(235, 187, 187); */
+    display: flex;
+    justify-content: space-around;
 }
 
 .video_count {
@@ -42,7 +45,6 @@
     justify-content: space-around;
     margin-top: 10px;
     font-weight: bold;
-
     align-items: center;
 }
 
@@ -50,12 +52,13 @@
 
     margin-top: 10px;
     font-weight: bold;
-    margin-left: 150px;
+    margin-right: 450px;
+    color:#7e7d7d;
 
 }
 
 .videosshow {
-    width: 662px;
+    width: 760px;
     height: 165px;
     background-color: rgba(255, 255, 255, 0.548);
     margin: auto;
@@ -68,19 +71,19 @@
 .videosdisplay {
     width: 200px;
     height: 100px;
-    background-color: bisque;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .contentdisplay {
-    margin: 2px;
-    height: 150px;
-    width:700px;
-    /* background-color: aqua; */
-   text-align: justify;
+    margin: 10px;
+    height: 160px;
+    width:800px;
+    background-color:rgba(247, 247, 247, 255);
+  text-align: justify;
+   color: #bebebe
+;
 
   }
 
@@ -88,15 +91,17 @@
 .author-info {
     width: 300px;
     height: 120px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
-
+    color: rgb(34, 34, 34);
 }
 
 .follow {
     display: flex;
     justify-content: space-between;
+    width:300px;
+
+
 }
 
 .follow>button {
@@ -110,11 +115,22 @@
     ;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 10px;
+    margin-left: 100px;
 }
 
 .aboutaouthor {
     color: grey;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 30px;
+   text-align:left
+}
+.head{
+    /* background-color: aquamarine; */
+    width:200px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    
 }
 

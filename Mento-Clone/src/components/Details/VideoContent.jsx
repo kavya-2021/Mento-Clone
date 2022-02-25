@@ -1,20 +1,17 @@
-// import { useState } from "react"
 import "./VideoContent.css";
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
 import VideoPlayer from "react-video-js-player"
+import {FaPager,FaClock,FaRegHeart,FaPhotoVideo} from "react-icons/fa";
+import { Footer } from "../Footer/Footer";
+// import { Play } from "./Play";
 export const VideoContent=()=>{
     const [randomdata, setRandomdata]=useState(Math.floor(Math.random() * 1200)) 
     const [getdata,setGetdata]=useState([]);
     const [arr,setArr]=useState([])
     const {type}=useParams();
-    const [aboutd,setAboutd]=useState("")
-    // console.log(typeof type);
-
-    // const videoshow=()=>
-    // {
-
-    // }
+    const [aboutd,setAboutd]=useState("");
+    const [name,setName]=useState("");
 const getData=async()=>
 {
     let res=await fetch("https://mento-backend-server.herokuapp.com/alltopics")
@@ -26,14 +23,13 @@ const getData=async()=>
          {
              setArr(it.videos)
              setAboutd(it.author_about)
+             setName(it.author_name)
          }
-
      })
-     setGetdata(data)
+        setGetdata(data)
 }
 // getData();
-console.log(aboutd);
-console.log(arr);
+
 useEffect(()=>
 {getData()},[]);
 
@@ -41,24 +37,25 @@ const datachange=()=>{
     setRandomdata(randomdata+1)
 }
 
-    return(
+    return( <>
     <div className="Main_cont1">
         <div className="videos">
             <div className="sub_navbar">
-                <div><span>LEARN</span></div>
+                <div className="head"><span style={{color:"black"}}>LEARN</span></div>
                 <div className="svg">
-                    <p>hell</p>
-                     <p>hello</p>
+                    <FaRegHeart style={{color:"orange",marginTop:"20px",fontSize:"25px"}}/>
+                    <div></div>
+                     <p style={{color:"orange",marginTop:"20px",fontSize:"17px"}}><FaPhotoVideo/> DOWNLOAD CERTIFICATE</p>
                   </div>
-
             </div>
              <hr/>
+             {/* <FontAwesomeIcon icon="fa-thin fa-heart" /> */}
               <div className="video_count">
-            <div><h2>15 videos</h2></div>
-            <div><h3>download workbook</h3></div>
+            <div><h2><span style={{color:"#f58441"}}>06 </span><span style={{color:"black"}}>Videos</span></h2></div>
+            <div><h3 style={{color:"#d3d3d3"}}><FaPager style={{color:"#d3d3d3",marginTop:"4px"}}/> download workbook</h3></div>
         </div>
         <div className="videotime">
-            <p>57Minutes</p>
+            <p><FaClock style={{marginTop:"4px"}}/> 35 MIN</p>
         </div>
        {
            arr.map((items)=>
@@ -67,7 +64,9 @@ const datachange=()=>{
                   
              return <div className="videosshow">
             <div className="videosdisplay">
-                <VideoPlayer src={items.video} poster={items.video_poster} width="150" height="100"/>
+                <VideoPlayer src={items.video} poster={items.video_poster} width="150" height="100">
+                    {/* <Play vid={items.video}/> */}
+                </VideoPlayer>
             </div>
             <div className="contentdisplay">
                 <h3>{items.title}</h3>
@@ -85,27 +84,30 @@ const datachange=()=>{
             <div className="author-info">
                 <div className="profile"></div>
                 <div className="author-detail">
-                    <h2>Nitesh tivari</h2>
+                    <h2 style={{marginBottom:"0px"}}>{name}</h2>
                    <span>occupation </span>
                     <div className="follow">
                         <button onClick={datachange}>FOLLOW</button>
-                        <p>{randomdata}-following</p>
+                        <p><span style={{color:"rgb(0, 153, 255)"}}>{randomdata}</span> following</p>
                     </div>
                 </div>
             </div>
             <hr/>
-            <div>
-               <span>15</span> <br/>
-               <span>lessons</span>
+            <div style={{color:"#797878",marginRight:"250px"}}>
+               <span style={{color:"#302f2f",fontSize:"20px"}}>06</span> <br/>
+               <span>Lessons</span>
             </div>
             <hr/>
             <div>
-                <h3>About</h3>
+                <h3  style={{color:"#797878",marginRight:"250px"}}>ABOUT</h3>
                 <p className="aboutaouthor">{aboutd}
                 </p>
                 
             </div>
         </div>
+      
     </div>
+      <Footer/>
+     </>
   )
 }
