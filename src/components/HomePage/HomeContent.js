@@ -16,7 +16,7 @@ export const HomeContent = ()=>{
         <div id="Home-Content-Cards">
             {
                 data.map((item,index)=>{
-                    return <HomeCards key={index} image={item.author_image[0]} title={item.topic_name} profession={item.profession} name={item.author_name.toUpperCase()}/>
+                    return <HomeCards key={index} image={item.author_image[0]} title={item.topic_name} profession={item.profession} name={item.author_name.toUpperCase()} forURL={item.topic}/>
                 })
             }
         </div>

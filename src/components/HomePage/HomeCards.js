@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 import {useNavigate,useParams,Link} from "react-router-dom"
 
-export const HomeCards = ({image,title,profession,name})=>{
+export const HomeCards = ({image,title,profession,name,forURL})=>{
     const url = encodeURI(image);
 
     const dummy = profession;
@@ -20,7 +20,7 @@ export const HomeCards = ({image,title,profession,name})=>{
     }
 
     return (
-         <Link style={{textDecoration:"none"}} to={`/courses/${title}`} > 
+         <Link style={{textDecoration:"none"}} to={`/courses/${forURL}`} > 
 
          <DIVHOME image={url} className="Home-Card-Container">
 
