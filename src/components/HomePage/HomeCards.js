@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 import {useNavigate,useParams,Link} from "react-router-dom"
 
-export const HomeCards = ({image,title,profession})=>{
+export const HomeCards = ({image,title,profession,name})=>{
     const url = encodeURI(image);
 
     const dummy = profession;
@@ -44,7 +44,9 @@ export const HomeCards = ({image,title,profession})=>{
                            <img src={image}/>
                         </div>
                         <div className="Home-Profile-Details">
-                            <h4>RITESH AGARWAL</h4>
+                            <h4 style={{
+                               fontSize:"13px"
+                            }}>{name}</h4>
                             <p style={{ 
                                fontSize:"11px",
                                fontWeight:"500",
