@@ -6,13 +6,16 @@ const AppContextProvider = ({ children }) => {
     // console.log(children);
   const [selectedVideo, setSelectedVideo] = useState("");
   const [isAuth, setIsAuth] = useState(true);
-
+  const [Name,setName1]=useState("")
+  const [imageurl,setImage]=useState("")
+   const [title,setTitle]=useState("")
+console.log(Name,"name");
   console.log("selectedVideo Global state", selectedVideo);
 
-  // const handlePlaySelectedVideo = (videoSrc) => {
-  //   console.log("handlePlaySelectedVideo", videoSrc);
-    // setSelectedVideo(videoSrc);
-  // };
+  const handlePlaySelectedVideo = (videoSrc) => {
+    setSelectedVideo(videoSrc);
+    // console.log("handlePlaySelectedVideo", videoSrc);
+  };
 
   const handleLogIn = () => {
     setIsAuth(true);
@@ -21,13 +24,30 @@ const AppContextProvider = ({ children }) => {
     setIsAuth(false);
   };
 
+  const changeName=(n)=>
+  {
+    setName1(n)
+    // console.log(Name);
+  }
+  const changeImage=(n)=>{
+    setImage(n)
+    console.log(n);
+
+  }
+  const changeTitle=(n)=>
+  {setTitle(n)
+    console.log(n);
+
+  }
   const value = {
-    selectedVideo,
-    setSelectedVideo,
-    // handlePlaySelectedVideo,
+    // selectedVideo,
+    // setSelectedVideo,
+    handlePlaySelectedVideo,
     handleLogIn,
     handleLogOut,
     isAuth,
+    changeName,
+    changeImage,changeTitle
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

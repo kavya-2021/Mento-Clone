@@ -17,7 +17,7 @@ export const VideoContent = () => {
   const [aboutd, setAboutd] = useState("");
   const [name, setName] = useState("");
 
-  const { setSelectedVideo } = useContext(AppContext);
+  const {changeName,changeImage,changeTitle,handlePlaySelectedVideo} = useContext(AppContext);
 
   const getData = async () => {
     let res = await fetch(
@@ -31,6 +31,9 @@ export const VideoContent = () => {
         setArr(it.videos);
         setAboutd(it.author_about);
         setName(it.author_name);
+        changeName(it.author_name)
+        changeImage(it.author_image[0])
+        changeTitle(it.topic_name)
       }
     });
     setGetdata(data);
@@ -88,14 +91,15 @@ export const VideoContent = () => {
           </div>
           {arr.map((items) => {
             return (
-              <div className="videosshow">
+              <div className="videosshow" onClick={() => {
+                    handlePlaySelectedVideo(items.video);
+                    console.log("click")
+                  
+                    // setSelectedVideo(items.video);
+                  }}>
                 <div
                   className="videosdisplay"
-                  onClick={() => {
-                    console.log("click")
-                    // handlePlaySelectedVideo(items.video);
-                    setSelectedVideo(items.video);
-                  }}
+                  
                 >
                   {/* <VideoPlayer src={items.video_poster} width="150" height="100"> */}
                   {/* <Play vid={items.video}/> */}
