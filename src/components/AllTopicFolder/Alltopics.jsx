@@ -39,7 +39,7 @@ function Alltopics() {
       <div className="MainContainer">
       
       <SidebarContent>
-       <p><span onClick={()=>{changeData("")}} className="both-up" >ALL TOPICS</span></p>
+       <p><span onClick={()=>{changeData("")}} className="both-up">ALL TOPICS</span></p>
        <p><span onClick={()=>{changeData("film_making")}} className="both-up">FILM-MAKING</span></p>      
        <p><span  className="both-up" onClick={()=>{changeData("beat_boxing")}}>BEAT BOXING</span></p>       
        <p><span  className="both-up" onClick={()=>{changeData("content_creation")}}>CONTENT CREATION</span></p>       
