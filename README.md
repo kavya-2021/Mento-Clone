@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Welcome to Mento Clone!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+
+This is a Mento clone built with React JS.
+Mento is a education platform where India's best industry experts teach you the necessary skills and demystify careers.
+
+## Webpages
+
+### Home-Page
+<img src="https://i.ibb.co/y4X3nNb/homepage1.png" alt="homepage1" border="0">
+<img src="https://i.ibb.co/kgS4yfr/homepage2.png" alt="homepage2" border="0">
+<img src="https://i.ibb.co/zFPgF58/footer.png" alt="footer" border="0">
+
+### SignUp/LogIn-Page
+<img src="https://i.ibb.co/RHZmy88/signUp.png" alt="signUp" border="0">
+
+### All-Topics-Page
+<img src="https://i.ibb.co/8X86NCd/Alll-Content.png" alt="Alll-Content" border="0">
+
+### Detailed-Description-Page
+<img src="https://i.ibb.co/hCStg2D/description-Page.png" alt="description-Page" border="0">
+<img src="https://i.ibb.co/tbGw8xY/desc2.png" alt="desc2" border="0">
+
+### About-Page
+<img src="https://i.ibb.co/ZNJhGw7/About-Page.png" alt="About-Page" border="0">
+
 
 ## Available Scripts
 
