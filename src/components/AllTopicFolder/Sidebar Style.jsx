@@ -5,6 +5,8 @@ export const SidebarContent = styled.div`
     color: #E8E7E7;  
     padding-left:10px;
     cursor: pointer;
+    //border:1px solid red;
+    text-align: left;
 
     & span {
     color: #E8E7E7;  
@@ -25,7 +27,7 @@ export const SidebarContent = styled.div`
     white-space: nowrap;
     overflow: hidden;  
     display: inline-block !important;    
-   // border: 1px solid red;   
+    //border: 1px solid red;   
 }
 
 & .both-up:after
