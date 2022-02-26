@@ -25,7 +25,7 @@ function Alltopics() {
 
     const NextPage = (e)=>{
       console.log(e);
-      navigate("/a")      
+      navigate("/courses/standup-comedy-101")      
     }
 
     function changeData(route)

@@ -1,5 +1,9 @@
-export const DetailsPage = ()=>{
-    return (
-        <div> Hi You are in the details Page Now</div>
-    )
-}
+import { Products } from "./Details/Products";
+import { Dataproducts } from "./Details/Products";
+export const DetailsPage = () => {
+  return (
+    <div>
+      <Products />
+    </div>
+  );
+};
