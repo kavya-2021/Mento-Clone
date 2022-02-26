@@ -14,6 +14,10 @@ import {Footer} from "./components/Footer/Footer"
 import {AboveFooter} from './components/Footer/AboveFooter'
 
 import {About} from "./components/NavBar/About"
+
+import Alltopics from './components/AllTopicFolder/Alltopics';
+
+import Dummy from './components/AllTopicFolder/Dummy';
  
 function App() {
   return (
@@ -23,6 +27,8 @@ function App() {
          <Route path="/" exact element={<HomePage/>}/>
          <Route path="/courses/:type" element={<DetailsPage/>}/>
          <Route path="/about" element={<About/>}/>
+         <Route path={"/a"} element={<Dummy/>}/> 
+         <Route path={"/alltopics"} element={<Alltopics/>}/>
       </Routes>
       <AboveFooter/>
       <Footer/>
