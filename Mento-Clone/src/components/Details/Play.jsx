@@ -5,10 +5,11 @@ import { useContext } from "react";
 
 export const Play = () => {
   const { selectedVideo } = useContext(AppContext);
+  console.log(selectedVideo,"play");
 
   return (
     <div>
-      <VideoPlayer src={selectedVideo}></VideoPlayer>
+      <VideoPlayer src={selectedVideo} width="1400" height="600" marginLeft="300" ></VideoPlayer>
     </div>
   );
 };

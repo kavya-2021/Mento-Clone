@@ -3,12 +3,12 @@ import { DIVHOME } from "./HomeDivCard";
 import { FaPlay } from "react-icons/fa";
 
 import { useNavigate, useParams, Link } from "react-router-dom";
+// import { useContext } from "react";
+// import { AppContext } from "../../ContextApi/AppContext";
 
 export const HomeCards = ({ image, title, profession, name, forURL }) => {
   const url = encodeURI(image);
-
   const dummy = profession;
-
   const designation = dummy.toUpperCase();
 
   const { type } = useParams();

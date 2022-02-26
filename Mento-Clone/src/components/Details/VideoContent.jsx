@@ -1,13 +1,18 @@
 import "./VideoContent.css";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import VideoPlayer from "react-video-js-player";
+import { useParams,Link } from "react-router-dom";
+// import VideoPlayer from "react-video-js-player";
 import { FaPager, FaClock, FaRegHeart, FaPhotoVideo } from "react-icons/fa";
 import { Footer } from "../Footer/Footer";
 import { AppContext } from "../../ContextApi/AppContext";
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 // import { Play } from "./Play";
+
 export const VideoContent = () => {
+
+  const navigate = useNavigate();
+
   const [randomdata, setRandomdata] = useState(
     Math.floor(Math.random() * 1200)
   );
@@ -17,16 +22,22 @@ export const VideoContent = () => {
   const [aboutd, setAboutd] = useState("");
   const [name, setName] = useState("");
 
-  const {changeName,changeImage,changeTitle,handlePlaySelectedVideo} = useContext(AppContext);
+  const {changeName,changeImage,changeTitle,handlePlaySelectedVideo,isAuth,handleLogIn,handleLogOut,logins,datalogins} = useContext(AppContext);
+// console.log(logins,"lohgfdddd");
+  // const nextPage = () => {
+  //   if(logins===false){
+  //   navigate("./Login");
+  //   }
 
+  // };
   const getData = async () => {
     let res = await fetch(
       "https://mento-backend-server.herokuapp.com/alltopics"
     );
     let data = await res.json();
-    console.log(data);
+    // console.log(data);
 
-    data.filter((it) => {
+    data.map((it) => {
       if (it.topic === type) {
         setArr(it.videos);
         setAboutd(it.author_about);
@@ -36,7 +47,7 @@ export const VideoContent = () => {
         changeTitle(it.topic_name)
       }
     });
-    setGetdata(data);
+    // setGetdata(data);
   };
   // getData();
 
@@ -91,14 +102,25 @@ export const VideoContent = () => {
           </div>
           {arr.map((items) => {
             return (
-              <div className="videosshow" onClick={() => {
-                    handlePlaySelectedVideo(items.video);
-                    console.log("click")
-                  
-                    // setSelectedVideo(items.video);
-                  }}>
+              <>
+              {/* <Link style={{ textDecoration: "none" }} to={"/Login"} > */}
+              <div className="videosshow" key={items._id}  onClick={()=>
+              {
+               
+          !isAuth?handleLogIn():handleLogOut();
+        }}
+             >
+               
                 <div
                   className="videosdisplay"
+                   onClick={() => {
+                // console.log("before",items.video);
+                    handlePlaySelectedVideo(items.video);
+                    console.log("click")
+                    
+                  
+                    // setSelectedVideo(items.video);
+                  }}
                   
                 >
                   {/* <VideoPlayer src={items.video_poster} width="150" height="100"> */}
@@ -117,9 +139,10 @@ export const VideoContent = () => {
                 <div className="contentdisplay">
                   <h3>{items.title}</h3>
                   <p>{items.about}</p>
-                  <p>{items.duration}</p>
+                  <p> <FaClock style={{ marginTop: "4px" }} /> {items.duration}</p>
                 </div>
-              </div>
+               </div></>
+             
             );
           })}
         </div>

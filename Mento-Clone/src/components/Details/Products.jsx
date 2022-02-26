@@ -14,6 +14,8 @@ export const Products = () => {
   const [name, setName] = useState("");
   const [profession, setProfession] = useState("");
   const { type } = useParams();
+  const {selectedVideo,handleLogIn,handleLogOut}=useContext(AppContext)
+  console.log("seleddfghjk",selectedVideo);
   const getData = async () => {
     let res = await fetch(
       "https://mento-backend-server.herokuapp.com/alltopics"
@@ -35,19 +37,17 @@ export const Products = () => {
   }, []);
 
   const { isAuth } = useContext(AppContext);
-
-
   return (
     <Dataproducts image={daata}>
       <div className="Main_cont">
         {/* <Navbar /> */}
-        {/* <button onClick={handleLogIn}>LogIn</button> */}
         {isAuth ? (
           <Play />
+
         ) : (
           <div className="items_cont">
             <div className="learnmore">
-              <apan> LEARN FROM</apan>
+              <span> LEARN FROM</span>
             </div>
             <div className="heading">
               <h1>
