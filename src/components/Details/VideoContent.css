@@ -1,0 +1,136 @@
+.Main_cont1 {
+    width: 1145px;
+    height: 1300px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.videos {
+    width: 900px;
+    height: 1300px;
+}
+
+.about {
+    width: 343px;
+    height: 1200px;
+    background-color: rgba(247, 247, 247, 255);
+}
+
+.sub_navbar {
+    width: 802px;
+    height: 73px;
+    background-color:rgba(247, 247, 247, 255);
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.vertical {
+    border-left: 5px solid black;
+}
+
+.svg {
+
+    width: 300px;
+    /* background-color: rgb(235, 187, 187); */
+    display: flex;
+    justify-content: space-around;
+}
+
+.video_count {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.videotime {
+
+    margin-top: 10px;
+    font-weight: bold;
+    margin-right: 450px;
+    color:#7e7d7d;
+
+}
+
+.videosshow {
+    width: 760px;
+    height: 165px;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.videosdisplay {
+    width: 200px;
+    /* height: 100px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contentdisplay {
+    margin: 10px;
+    height: 160px;
+    width:800px;
+    background-color:rgba(247, 247, 247, 255);
+  text-align: justify;
+   color: #bebebe
+;
+
+  }
+
+
+.author-info {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(34, 34, 34);
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+
+
+}
+
+.follow>button {
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border: 2px solid rgb(0, 153, 255);
+    ;
+    border-radius: 2px;
+    color: rgb(0, 153, 255);
+    ;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.aboutaouthor {
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+   text-align:left
+}
+.head{
+    /* background-color: aquamarine; */
+    width:200px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
