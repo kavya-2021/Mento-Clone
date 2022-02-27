@@ -18,10 +18,10 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 
  | Team Member            | Contribution                                                              |
 | ----------------- | ------------------------------------------------------------------ |
-| Ibtisham Mansuri | Description page |
+| Ibtisham Mansuri | content page |
 | Babita Bisht | All topics page |
-| Lakshmi Kavya Vankadara | Home page |
-| Surya Kumar Yadav | Navbar |
+| Lakshmi Kavya Vankadara | Home page and footer |
+| Surya Kumar Yadav | Navbar and about page|
 | Premkumar Hulikoppe | Backend part |
 
  
