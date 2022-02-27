@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 
+import appstore from '../Assets/appstore.png'
+
+import gplay from '../Assets/gplay.png'
 // Render a YouTube video player
 
 export const HomeAdd = ()=>{
@@ -23,12 +26,14 @@ export const HomeAdd = ()=>{
                 
                <div>
                   <a target="_blank" href="https://play.google.com/store/apps/details?id=com.navkarapps.gdm.gradesdontmatter">
-                    <img src="https://www.mento.co.in/assets/google-play-black-f7eb60056f740e3f7175688fc28e4fc4c2c2a20fc8a26b4fe4d2e944e24fa014.svg" alt="Get it on Google Play"/>
+                    <img src={gplay} alt="Get it on Google Play"/>
                   </a>
                   </div>
-                  <div>
+                  <div style={{
+                    marginTop:"4%"
+                  }}>
                   <a target="_blank" href="https://apps.apple.com/in/app/mento-learning-app/id1368051174">
-                    <img src="https://www.mento.co.in/assets/app-store-black-89aa31eafa093e3c654fd68421e895d386767ea78997aa91db6ef811c3fb0152.svg" alt="Download on the App Store"/>
+                    <img src={appstore} alt="Download on the App Store"/>
                   </a>
              </div>
              
