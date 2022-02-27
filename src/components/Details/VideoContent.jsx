@@ -131,8 +131,8 @@ export const VideoContent = ({ setSelectedVideo }) => {
                       // console.log("before",items.video);
                       if (!isAuth) {
                         // handlePlaySelectedVideo(items.video);
-                        navigate("/Login");
-                      } else {
+                        // navigate("/Login")
+                        handleLogIn();
                         console.log("click");
                         setSelectedVideo(items.video);
                       }

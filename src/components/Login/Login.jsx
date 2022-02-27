@@ -1,12 +1,13 @@
 import { useNavigate, Link } from "react-router-dom";
-import { AppContext } from "../../ContextApi/AppContext";
+// import { AppContext } from "../../ContextApi/AppContext";
+import {AppContext} from "../../ContextApi/AppContext"
 import { useContext } from "react";
 import "./login.css"
 
-export const Login = () => {
+export const Login = ({handleLogIn}) => {
   const navigate = useNavigate();
 
-  const { handleLogIn } = useContext(AppContext);
+  // const { handleLogIn } = useContext(AppContext);
 
   const nextPage = () => {
     navigate("./courses/standup-comedy-101");
@@ -24,11 +25,11 @@ export const Login = () => {
 
 <div id="logingdiv">
  
-<button className="loginBtn loginBtn--facebook">
+<button className="loginBtn loginBtn--facebook" >
   Login with Facebook
 </button>
 
-<button className="loginBtn loginBtn--google" >
+<button className="loginBtn loginBtn--google"  >
   Login with Google
 </button>
 
