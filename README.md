@@ -47,7 +47,7 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 ### About-Page
 <img src="https://i.ibb.co/ZNJhGw7/About-Page.png" alt="About-Page" border="0">
 
-So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers all frontend and backend development up to a certain level. I greatly thankful to our instructor *Prabhanjan Padhye* for guiding us which helpled to feel confident and work upon the project to complete within the specified deadlines.
+So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers all frontend and backend development up to a certain level. We greatly thankful to our instructor *Prabhanjan Padhye* for guiding us which helpled to feel confident and work upon the project to complete within the specified deadlines.
 
 
 ## Available Scripts
