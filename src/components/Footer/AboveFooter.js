@@ -4,9 +4,12 @@ export const AboveFooter = ()=>{
             width: "470px",
             margin:"auto",
             marginTop : "20%",
+            // marginLeft:"6%",
             textAlign:"center"
         }} id="Above-Footer"> 
-           <h1> Learn on the go </h1>
+           <h1 style={{
+            margin:"auto",
+            textAlign:"center"}}> Learn on the go </h1>
            <h2 style={{
                maxWidth:"400px",
                marginTop : "8%",

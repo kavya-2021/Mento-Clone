@@ -18,7 +18,7 @@ import { About } from "./components/NavBar/About";
 import Alltopics from "./components/AllTopicFolder/Alltopics";
 
 import Dummy from "./components/AllTopicFolder/Dummy";
-import { Login } from "./components/Details/Login";
+import { Login } from "./components/Login/Login";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
         <Route path={"/a"} element={<Dummy />} />
         <Route path={"/alltopics"} element={<Alltopics />} />
 
-        <Route path="Login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <AboveFooter />
       <Footer />

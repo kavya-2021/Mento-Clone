@@ -53,8 +53,10 @@ export const Footer = ()=>{
          </div>
          <p style={{ 
              fontSize: "0.6363636364em",
-             marginTop:"3%" ,
-             marginBottom:"2%"     
+                margin:"auto",
+                marginTop:"3%" ,
+             marginBottom:"2%",
+                textAlign:"center"    
          }}>Copyright @GRADESDONTMATTER PVT LTD</p>
       </div>
      </>

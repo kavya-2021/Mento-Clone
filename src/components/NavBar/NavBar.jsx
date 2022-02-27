@@ -37,8 +37,13 @@ export const Navbar = () => {
                     textDecoration:"none",
                     color:"white"
                 }}> <div id="about">ABOUT</div>  </Link>
+
+                <Link to={'/login'} style={{
+                    textDecoration:"none",
+                    color:"white"
+                }}>  <button className="btn-hover color-2">LOGIN</button> </Link>
                 
-                <button className="btn-hover color-2">LOGIN</button>
+                
                
                
             </div>
