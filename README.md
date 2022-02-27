@@ -14,7 +14,7 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
    
    Backend   : Node JS, EXpress, MongoDB Atlas, Mongoose, npm 
    ```
- ## Team Members and Contribution
+ ## Team members and contribution
 
  | Team Member            | Contribution                                                              |
 | ----------------- | ------------------------------------------------------------------ |
