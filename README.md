@@ -20,7 +20,7 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 | ----------------- | ------------------------------------------------------------------ |
 | Ibtisham Mansuri | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
 | Babita Bisht | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Lakshmi Kavya Vyakandara | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Lakshmi Kavya Vakandara | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
 | Surya Kumar Yadav | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 | Premkumar Hulikoppe | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
@@ -47,7 +47,7 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 ### About-Page
 <img src="https://i.ibb.co/ZNJhGw7/About-Page.png" alt="About-Page" border="0">
 
-So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers all frontend and backend development up to a certain level. We greatly thankful to our instructor *Prabhanjan Padhye* for guiding us which helpled to feel confident and work upon the project to complete within the specified deadlines.
+So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers all frontend and backend development up to a certain level. We are greatly thankful to our instructor *Prabhanjan Padhye* for guiding us which helpled us to feel confident and work upon the project to complete within the specified deadlines.
 
 
 ## Available Scripts
