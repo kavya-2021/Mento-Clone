@@ -18,11 +18,11 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 
  | Team Member            | Contribution                                                              |
 | ----------------- | ------------------------------------------------------------------ |
-| Ibtisham Mansuri | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Babita Bisht | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Lakshmi Kavya Vankadara | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Surya Kumar Yadav | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| Premkumar Hulikoppe | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Ibtisham Mansuri | Description page |
+| Babita Bisht | All topics page |
+| Lakshmi Kavya Vankadara | Home page |
+| Surya Kumar Yadav | Navbar |
+| Premkumar Hulikoppe | Backend part |
 
  
 ---
