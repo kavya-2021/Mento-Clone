@@ -1,6 +1,7 @@
 import { useNavigate, Link } from "react-router-dom";
 import { AppContext } from "../../ContextApi/AppContext";
 import { useContext } from "react";
+import { Login } from "../Login/Login";
 
 export const Login = () => {
   const navigate = useNavigate();
@@ -14,8 +15,9 @@ export const Login = () => {
   return (
     <div>
       <Link to={"/courses/standup-comedy-101/"}>
-        <button onClick={handleLogIn}>google</button>
-        <button onClick={handleLogIn}>facebook</button>
+        {/* <button onClick={handleLogIn}>google</button>
+        <button onClick={handleLogIn}>facebook</button> */}
+        {/* <Login handleLogIn={handleLogIn}/> */}
       </Link>
     </div>
   );
