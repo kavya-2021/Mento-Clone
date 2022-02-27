@@ -5,7 +5,7 @@
 This is a Mento clone built with React JS.
 Mento is a education platform where India's best industry experts teach you the necessary skills and demystify careers.  We often end up in careers or industries because we are either confused or clueless about what we want to do in life. Also, we don't actually have much information about the numerous career options available to us. So Mento is an online platform which aims to solve that problem by providing first hand in-depth career advice from the biggest and best in each field. You'll get all the information you need to decide if a particular career is for you or not.
 
-This is our fourth Construct Week Project at Masai School's Full Stack Web Development Course. We are currently at the end of fifth unit where we need to make project as per mastery based progression environment of _Masai School_ ,  after learnig certain tech-tools and in fourth unit we have learnt React JS, Redux by using which we need to create website clones. So the motto of this project is to create *Mento* website clone. 
+This is our fourth Construct Week Project at Masai School's Full Stack Web Development Course. We are currently at the end of fifth unit where we need to make project as per mastery based progression environment of _Masai School_ ,  after learnig certain tech-tools and in fifth unit we have learnt React JS, Redux by using which we need to create website clones. So the motto of this project is to create *Mento* website clone. 
    
  ##  Tech-stack used
   
