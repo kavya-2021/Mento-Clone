@@ -1,32 +1,30 @@
-# HealthKart
+# Mento
 
-##Construct Week Project / Mento
-  ---
+![Logo](https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg)
  
-## **Mento Website Clone Project**
+
+## Mento Website Clone Project 
 
 This is our fourth Construct Week Project at Masai School's Full Stack Web Development Course. We are currently at the end of fifth unit where we need to make project as per mastery based progression environment of _Masai School_ ,  after learnig certain tech-tools and in fourth unit we have learnt React JS, Redux by using which we need to create website clones. So the motto of this project is to create *Mento* website clone. 
 
    We often end up in careers or industries because we are either confused or clueless about what we want to do in life. Also, we don't actually have much information about the numerous career options available to us. So Mento is an online platform which aims to solve that problem by providing first hand in-depth career advice from the biggest and best in each field. You'll get all the information you need to decide if a particular career is for you or not.
    
- ##  **Tech-Used** 
-   --
+ ##  Tech-stack used
+  
    ```
-   **Frontend ** : HTML, CSS, Javascript, React JS, Redux
-   **Backend **  : Node JS, EXpress, MongoDB Atlas, Mongoose, npm 
+   Frontend : HTML, CSS, Javascript, React JS, Redux
+   
+   Backend   : Node JS, EXpress, MongoDB Atlas, Mongoose, npm 
    ```
+ ## Team Members and Contribution
 
- ## **Team Members  --->        Contribution**
--
-Lakshmi Kavya Vyakandara   --->         Home Page
-
-Ibtisham Mansuri  --->     Signup, Login Page and Products Page
-
-Babita Bisht  --->    Product View Page
-
-Surya Kumar Yadav  --->     Cart Page
-
-Premkumar Hulikoppe      --->         Backend Part
+ | Team Member            | Contribution                                                              |
+| ----------------- | ------------------------------------------------------------------ |
+| Ibtisham Mansuri | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Babita Bisht | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Lakshmi Kavya Vyakandara | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Surya Kumar Yadav | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Premkumar Hulikoppe | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 
   So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers basic front end designs up to a certain level and showcasing basic functionality like signup, signin, product viewing, adding it to cart then finally placing order by filling address details and making successful payment. I greatly thankful to my instructor *Swanand Kadam* and also instructor associate *Kamal* for guiding us which helpled me to feel confident and work upon the project and to complete within the specified time period.
