@@ -1,0 +1,44 @@
+
+#abotmain {
+    margin-top: 5rem;
+   
+    width: 50%;
+    margin-left: 10%;
+}
+h1 { 
+    text-align:left;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: rgba(240, 248, 255, 0.849);
+
+}
+
+p { 
+ font-size: 1rem;
+ text-align:left;
+ margin-top: 4%;
+ word-spacing: 5px;
+ line-height: 25px;
+
+ 
+
+}
+#video {
+    margin-top: 4%;
+}
+#center {
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#center2 {
+    margin-top: 4rem;
+    background-color: antiquewhite;
+   color: black;
+   width: 40%;
+   margin: auto;
+   text-align: center;
+   border-radius: 5px;
+  
+  
+}

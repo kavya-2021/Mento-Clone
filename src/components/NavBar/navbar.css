@@ -1,0 +1,115 @@
+#fix {
+    overflow: hidden;
+  
+  position: sticky;
+  top: 0;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  z-index:8;
+  /* background-color: #1a1d24;  */
+ 
+}
+
+#main_navbar {
+    display: flex;
+    gap: 30%;
+    margin: auto;
+    width: 95%;
+    margin-top: 1rem;
+    
+}
+#options {
+    display: flex;
+    justify-content: space-between;
+  margin: auto;
+  width: 100%;
+
+ 
+}
+#logo > img {
+    width: 2rem;
+}
+
+
+
+.input-elevated{
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    background: #282c34;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+  
+  
+    width: 200px;
+    padding: .5em 1em .5em 2.5em;
+    } 
+    
+    .input-elevated::placeholder{
+      color: rgba(255, 255, 255, 0.63);
+      font-size: .8rem;
+     
+    }
+    
+    .input-elevated:focus {
+      outline: none;
+    
+    }
+    
+
+    .btn-hover {
+       
+        width: 7rem;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        height: 40px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+    
+        border-radius: 10px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:focus {
+        outline: none;
+    }
+    .btn-hover.color-2 {
+        background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+     
+    }
+
+    #alltopic {
+        margin-top: .7rem;
+    }
+    #alltopic:hover {
+      
+       border-bottom: 2px solid blue;
+       
+    }
+
+    #about {
+        margin-top: .7rem;
+    }
+    #about:hover {
+        border-bottom: 2px solid blue;
+    }
+
+
+
