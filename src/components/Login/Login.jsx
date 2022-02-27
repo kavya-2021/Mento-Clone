@@ -11,16 +11,13 @@ export const Login = () => {
   const nextPage = () => {
     navigate("./courses/standup-comedy-101");
   };
-
   return (
     <div>
   
-
       <Link to={"/courses/standup-comedy-101/"}>
 
 
        <div id="login">
-
 
 <div id="logingdiv">
  
@@ -31,8 +28,6 @@ export const Login = () => {
 <button className="loginBtn loginBtn--google" >
   Login with Google
 </button>
-
-
 
 </div>
        

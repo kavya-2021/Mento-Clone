@@ -2,7 +2,6 @@ import "./about.css"
 
 export const About = ()=>{
     return (
-      
         <div id="abotmain">
         <h1 >
         Ever wondered what you really like doing ? What is your true calling?
@@ -35,7 +34,5 @@ P.S : Please send me your thoughts on
       SUPPORT@MENTO.CO.IN
   </div>
         </div>
-
-        
     )
 }

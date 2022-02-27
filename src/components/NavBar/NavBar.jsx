@@ -3,12 +3,7 @@ import "./navbar.css"
 
 export const Navbar = () => {
 
-//     const navigate = useNavigate();
-// // const  gotoabot = ()=>{
-// //     navigate('./about')
-// // }
 
-   
     return (
        
         <div id="fix">
@@ -20,8 +15,7 @@ export const Navbar = () => {
             </div>  
         </Link>
 
-     
-            <div id="options">
+         <div id="options">
                 <div id="input_search" >
                     
                     <input className="input-elevated" type="text" placeholder=" Topic name,Infulencers name
@@ -43,9 +37,7 @@ export const Navbar = () => {
                     color:"white"
                 }}>  <button className="btn-hover color-2">LOGIN</button> </Link>
                 
-                
-               
-               
+              
             </div>
        
         </div>

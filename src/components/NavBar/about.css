@@ -12,15 +12,12 @@ h1 {
     color: rgba(240, 248, 255, 0.849);
 
 }
-
 p { 
  font-size: 1rem;
  text-align:left;
  margin-top: 4%;
  word-spacing: 5px;
  line-height: 25px;
-
- 
 
 }
 #video {
@@ -39,6 +36,5 @@ p {
    margin: auto;
    text-align: center;
    border-radius: 5px;
-  
   
 }

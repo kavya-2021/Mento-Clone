@@ -1,5 +1,5 @@
-body { padding: 2em; }
 
+body { padding: 2em; }
 
 /* Shared */
 .loginBtn {
@@ -32,7 +32,6 @@ body { padding: 2em; }
   box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
 }
 
-
 /* Facebook */
 .loginBtn--facebook {
   background-color: #4C69BA;
@@ -50,7 +49,6 @@ body { padding: 2em; }
   background-image: linear-gradient(#5B7BD5, #4864B1);
 }
 
-
 /* Google */
 .loginBtn--google {
   /*font-family: "Roboto", Roboto, arial, sans-serif;*/
@@ -64,7 +62,6 @@ body { padding: 2em; }
 .loginBtn--google:focus {
   background: #E74B37;
 }
-
 
 #login {
     margin: auto;
